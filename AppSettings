@@ -1,0 +1,17 @@
+{
+  "name": "AppSettings",
+  "type": "object",
+  "properties": {
+    "key": {
+      "type": "string",
+      "description": "Clave \u00fanica del ajuste"
+    },
+    "value": {
+      "type": "string",
+      "description": "Valor del ajuste"
+    }
+  },
+  "required": [
+    "key"
+  ]
+}
